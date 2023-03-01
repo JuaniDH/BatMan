@@ -1,1 +1,122 @@
+body{
+    background-color: #E6E6E6;
+}
+/*HEADER*/
+
+.cabecera{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+/*TITULO*/
+
+h1{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4C4C4;
+    height: 50px;
+    color: #005677;
+    letter-spacing: 9px;
+    font-size: 35px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+main{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: max-content;
+    background-color: white;
+}
+
+/*ARTICULO*/
+
+h2{
+    font-size: 25px;
+}
+
+/*FORMACION ACADEMICA*/
+
+.Info h2{
+    display: flex;
+    background-color: #C4C4C4;
+    height: 35px;
+    align-items: center;
+    color: #005677;
+    padding-left: 5px;
+}
+
+.Datos h2{
+    margin-top: 130px;
+}
+
+.Datos ul{
+    font-weight: bold;
+}
+
+.fechaUno{
+    display: flex;
+    margin-left: 20px;
+}
+
+.Formacion h3{
+    margin-right: 15px;
+}
+
+.Formacion p{
+    margin-top: 20px;
+}
+
+.fechaDos{
+    display: flex;
+    margin-left: 20px;
+}
+
+/*EXPERIENCIA LABORAL*/
+
+.fechasAbajo{
+    display: flex;
+    margin-left: 20px;
+}
+
+.fechasAbajo h3{
+    margin-right: 15px;
+}
+
+.fechasAbajo p{
+    margin-bottom: 30px;
+    margin-top: 19px;
+}
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #005677;
+    width: 1146px;
+    height: 25px;
+    margin-bottom: 60px;
+}
+
+footer img{
+    width: 20px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+footer h2{
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+
 
