@@ -1,0 +1,13 @@
+$tamaño-general: (
+    "ancho": 800px,
+    "margen": auto,
+    "alineamiento": flex,
+    "centrado": center
+);
+
+header, main, footer {
+    width: map-get($tamaño-general , "ancho" );
+    margin: map-get($tamaño-general , "margen" );
+    display: map-get($tamaño-general , "alineamiento" );
+    justify-content: map-get($tamaño-general , "centrado" );
+}

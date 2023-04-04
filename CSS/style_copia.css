@@ -1,7 +1,8 @@
-body{
+/* body{
     background-color: #E6E6E6;
 }
 /*HEADER*/
+
 
 .cabecera{
     display: flex;
@@ -105,6 +106,7 @@ footer{
     width: 1146px;
     height: 25px;
     margin-bottom: 60px;
+    color: white;
 }
 
 footer img{
@@ -116,7 +118,9 @@ footer img{
 footer h2{
     margin-right: 20px;
     font-size: 15px;
-}
+} 
+
+
 
 
 
